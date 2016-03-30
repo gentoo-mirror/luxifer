@@ -1,2 +1,2 @@
 # olgentoo
-Just a Portage overlay
+Just a Portage overlay.
