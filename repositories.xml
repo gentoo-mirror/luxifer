@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>luxifer</name>
+    <description lang="en"><![CDATA[Personal Overlay, contains stoken ebuilds]]></description>
+    <homepage>https://github.com/luxifr/olgentoo</homepage>
+    <owner type="person">
+      <email>dhertel@gmail.com</email>
+      <name>Dominik Keil</name>
+    </owner>
+    <source type="git">git://github.com/luxifr/olgentoo.git</source>
+    <feed>https://github.com/luxifr/olgentoo/commits/master.atom</feed>
+  </repo>
+</repositories>
