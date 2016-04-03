@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure
+DEPEND=dev-libs/libxml2 gtk? ( x11-libs/gtk+:3 ) tomcrypt? ( dev-libs/libtomcrypt ) nettle? ( dev-libs/nettle )
+DESCRIPTION=RSA SecurID-compatible software token for Linux/UNIX systems
+EAPI=6
+HOMEPAGE=http://stoken.sf.net
+IUSE=+gtk +nettle -tomcrypt
+KEYWORDS=~x86 ~amd64
+LICENSE=LGPL-2.1+
+RDEPEND=dev-libs/libxml2 gtk? ( x11-libs/gtk+:3 ) tomcrypt? ( dev-libs/libtomcrypt ) nettle? ( dev-libs/nettle )
+REQUIRED_USE=^^ ( tomcrypt nettle )
+SLOT=0
+SRC_URI=https://github.com/cernekee/stoken/archive/master.tar.gz -> stoken-9999.tar.gz
+_eclass_exported_funcs=src_configure:-
+_md5_=a6e220cf84c6ac9422c25f675d2ca68a
